@@ -10,7 +10,7 @@ def run_guessing_game
     elsif user_input == computer_number
       puts "You guessed the correct number!"
     elsif user_input != computer_number
-      puts "The computer guessed #{computer_number}"
+      puts "The computer guessed #{computer_number}."
     end
   end
 end
