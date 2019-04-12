@@ -7,7 +7,8 @@ def run_guessing_game
     user_input = (gets.chomp).to_i
     if user_input == computer_number
       puts "You guessed the correct number!"
-    elsif 
+    elsif user_input != computer_number
+      puts 
     end
       
   end
